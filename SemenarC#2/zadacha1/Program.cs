@@ -82,34 +82,30 @@
 // 34, 5 -> не кратно, остаток 4
 // 16, 4 -> кратно
 
-Console.Write("Введите 1 число: ");
- int num1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите 2 число: ");
- int num2 = Convert.ToInt32(Console.ReadLine());
- if(num1 % num2 == 0) Console.WriteLine("кратно: ");
- else Console.WriteLine($" не кратно, остаток от деления = {num1 % num2}");
+// Console.Write("Введите 1 число: ");
+//  int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите 2 число: ");
+//  int num2 = Convert.ToInt32(Console.ReadLine());
+//  if(num1 % num2 == 0) Console.WriteLine("кратно: ");
+//  else Console.WriteLine($" не кратно, остаток от деления = {num1 % num2}");
 
-
-
-
-
-
-
-// program 9
-
-// Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе число кратным первому. Если число 2 не кратно числу 1, то программа выводит остаток от деления.
-
-
-//
-//
 // program 10
 
 // Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно
 // 7 и 23.
-
 // 14 -> нет
 // 46 -> нет
 // 161 -> да
+
+Console.Write("Введите  число: ");
+int n1 = Convert.ToInt32(Console.ReadLine());
+if(n1 % 7 == 0 && n1 % 23 == 0)
+Console.WriteLine($"{n1} кратно 7 и 23 ");
+else Console.WriteLine($"{n1}  не кратно 7 и 23 ");
+
+
+
+
 
 // program 11
 
