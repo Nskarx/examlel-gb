@@ -97,22 +97,30 @@
 // 46 -> нет
 // 161 -> да
 
-Console.Write("Введите  число: ");
-int n1 = Convert.ToInt32(Console.ReadLine());
-if(n1 % 7 == 0 && n1 % 23 == 0)
-Console.WriteLine($"{n1} кратно 7 и 23 ");
-else Console.WriteLine($"{n1}  не кратно 7 и 23 ");
-
-
-
-
+// Console.Write("Введите  число: ");
+// int n1 = Convert.ToInt32(Console.ReadLine());
+// if(n1 % 7 == 0 && n1 % 23 == 0)
+// Console.WriteLine($"{n1} кратно 7 и 23 ");
+// else Console.WriteLine($"{n1}  не кратно 7 и 23 ");
 
 // program 11
 
-// 16/
 // Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
 
 // 5, 25 -> да
 // -4, 16 -> да
 // 25, 5 -> да
 // 8,9 -> нет
+// Console.Write("Введите первое число: ");
+// int n1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите второе число: ");
+// int n2 = Convert.ToInt32(Console.ReadLine()); 
+// if(n1 * n1 == n2)
+//  Console.Write($"{n1} является квадратом {n2}: ");
+// else
+//  Console.Write($"{n1} не является квадратом {n2}: ");
+
+     
+     
+
+ 
